@@ -1,6 +1,6 @@
 /* eslint-disable default-case */
 /* eslint-disable import/no-anonymous-default-export */
-const API_KEY = '???????????????????????';
+const API_KEY = 'ac287c18ad5851b99c925a727f9b37c7';
 const API_BASE = 'https://api.themoviedb.org/3';
 
 /*
@@ -22,6 +22,7 @@ const basicFetch = async (endpoint) => {
 
 
 export default {
+    
     getHomeList: async () => {
         return [
             {
